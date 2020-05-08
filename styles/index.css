@@ -1,0 +1,158 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+
+/*general styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+}
+section{
+    padding:4% 0;
+}
+a{
+    text-decoration:none;
+}
+h2{
+    font-size:3rem;
+    margin:2% 0;
+}
+.space{
+    margin:4% 0;
+    text-align:justify;
+}
+hr{
+    border:1px solid #000;
+    width:80%;
+    margin:0 auto;
+}
+/*header section styles*/
+header{
+    height:60vh;
+    background-image:url('../images/main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.logo{
+    width:10%;
+}
+.container{
+    display:flex;
+}
+.top-nav{
+    width:90%;
+    background-color:#000;
+    color:#fff;
+    display:flex;
+    justify-content:space-between;
+}
+.social{
+    width:20%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.pink{
+    background-color:pink;
+    width:10%;
+    text-align:right;
+}
+.pink a{
+   text-decoration:none;
+   color:#000;
+}
+.top-nav a{
+    color:#fff;
+    font-size:2rem;
+}
+.main-nav{
+    display:flex;
+    justify-content:space-between;
+    background-color:#fff;
+}
+.links{
+    width:60%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.links a{
+    color:black;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.links a:hover{
+    color:pink;
+}
+.title-container{
+    height:45vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main-titles{
+    text-align:center;
+    width:40%;
+    padding:4% 0;
+    background-color:rgba(255, 255, 255, 0.8);
+}
+.main-titles button{
+    padding:4%;
+    font-size:1.6rem;
+    text-transform:capitalize;
+    border:2px solid #000;
+    transition:3s;
+    margin:2%;
+}
+.main-titles button:hover{
+    border:2px solid #fff;
+    color:#fff;
+    background-color:#000;  
+}
+h1{
+    font-size:3.5rem;
+    text-transform:capitalize;
+}
+
+/*Service Section Styles*/
+#services{
+    display:flex;
+    padding:0;
+}
+.left, .right{
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.left div, .right div{
+    width:80%;
+    text-align:center;
+    padding:6% 0;
+}
+.left{
+    background-color:pink;
+}
+.right{
+    background-color:lightpink;
+}
+.left button, .right button{
+    padding:4%;
+    font-size:1.6rem;
+    text-transform:capitalize;
+    border:2px solid #000;
+    transition:3s;
+    margin:2%;
+}
+.left button:hover, .right button:hover{
+    border:2px solid #fff;
+    color:#fff;
+    background-color:#000;
+}
